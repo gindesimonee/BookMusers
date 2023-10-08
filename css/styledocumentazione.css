@@ -1,0 +1,296 @@
+body {
+    margin: 0px !important;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  .menusopra nav ul li {
+    display: inline-block;
+  }
+  
+  .centrale {
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  
+  #logo {
+    height: 50px;
+    }
+  
+  .menusopra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+    padding-left: 1%;
+    padding-right: 5%;
+    height: 80px
+  }
+  
+  .menu a {
+    padding: 30px;
+  }
+  
+  .whitelink {
+    color: hsl(0, 0%, 100%);
+    list-style: none;
+    display: flex;
+    text-align: right;
+  }
+  
+  .whitelink:hover {
+    color: #7a7f7a;
+  }
+  
+  .active {
+    color: hsl(0, 0%, 0%);
+    background-color: white;
+    list-style: none;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin: 0px;
+    height: 80px;
+  }
+  
+  .nounderline {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    font-size: 13px;
+  }
+
+  .socialtesto {
+    padding-top: 3%;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  .imginsta {
+    height: 38px; 
+    padding-bottom: 3%;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .row {
+    background-color: #000000;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .linea-bianca {
+    width: 1300px; 
+    height: 0.2px; 
+    background-color: #8f8b8b; 
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
+
+  /*  breadcrumb */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+  text-decoration: none;
+  color: #000000;
+  }
+  
+  .wireframe  {
+    text-align: center;
+  }
+
+  #imgg {
+    height: 400px;
+    padding: 2%;
+  }
+
+  p {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .aboutus {
+    font-size: 120px;
+   font-weight: 100;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-right: 3%;
+    padding-bottom: 0%;
+  }
+  
+  h2 {
+    font-size: 70px;
+   font-weight: 100;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1%;
+  }
+
+  h3 {
+    font-size: 60px;
+   font-weight: 100;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  .contenitore-centrato {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px; 
+    padding: 20px;
+    width: 1200px; 
+    margin: 0 auto; 
+    padding-bottom: 2%;
+  }
+  
+
+  .testo-centrale {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10%;
+    padding-left: 10%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+/* menù sotto e footer*/
+footer {
+  display: flex;
+  justify-content: center;  
+}
+
+#scrollToTopBtn {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family:'Montserrat', sans-serif;
+  line-height: 40px;
+  width: 1370px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-decoration: underline;
+}
+
+.menusotto {
+  display: flex;
+  background-color: #000000;
+  color: white;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  padding-top: 4%;
+  list-style: none;
+}
+
+.colonna {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.colonna:last-child {
+  margin-right: 0;
+}
+
+.colonna a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grande {
+  color: white;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.piccolo {
+  color: #555655;
+  font-size: 13px;
+}
+
+.grande:hover {
+  text-decoration: underline;
+}
+
+.piccolo:hover {
+  color: white;
+}
+
+.credit {
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color:#555655;
+}
+
+
+@media (max-width:768px) {
+  
+}
+
+/* animazione effetto macchina da scrivere */
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .09em solid #000000;
+  }
+  100% {
+    border: none;
+  }
+}
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .09em solid #000000;
+  }
+  100% {
+    border: none;
+  }
+}
+
+

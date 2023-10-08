@@ -1,0 +1,344 @@
+body {
+  margin: 0px !important;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.menusopra nav ul li {
+  display: inline-block;
+}
+
+.centrale {
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.fa-solid fa-headphones {
+color: #ffffff;
+}
+
+#logo {
+  height: 50px;
+  }
+
+.menusopra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  color: white;
+  padding-left: 1%;
+  padding-right: 5%;
+  height: 80px
+}
+
+.menu a {
+  padding: 30px;
+}
+
+.whitelink {
+  color: hsl(0, 0%, 100%);
+  list-style: none;
+  display: flex;
+  text-align: right;
+}
+
+.whitelink:hover {
+  color: #7a7f7a;
+}
+
+.active {
+  color: hsl(0, 0%, 0%);
+  background-color: white;
+  list-style: none;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  margin: 0px;
+  height: 80px;
+}
+
+.nounderline {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  font-size: 13px;
+}
+
+/* immagini libri e musica */
+
+.immagini {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.immaginilibrimusica {
+  position: relative;
+  transition: opacity .50s ease-in-out;
+}
+
+.immaginilibrimusica:hover {
+  opacity: 0.5;
+}
+
+#musicaimg {
+  height: 380px;
+}
+
+#libriimg {
+  height: 380px;
+}
+
+.testolibrimusica {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .50s ease-in-out;
+}
+
+.testolibrimusica:hover {
+  opacity: 1;
+}
+
+.testo {
+  color: white;
+  font-size: 20px;
+  font-family: times;
+  letter-spacing: 0.3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* effetto macchina da scrivere del titolo */
+header {
+  margin-left: 2%;
+  margin-top: -8.5%;
+  margin-bottom: -11.8%;
+}
+
+.content p {
+  border-right: .01em solid rgb(0, 0, 0);
+  font-family: "Times";
+  font-size: 170px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.content p:nth-child(1) {
+  width: 5.5em;
+  -webkit-animation: type 2.4s steps(40, end);
+  animation: type 2.4s steps(40 end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.contenuto p {
+  margin-left: 3%;
+  margin-top: 0%;
+  margin-bottom: 7%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+
+
+
+/* linea divisoria */
+.hr1 {
+  width: 1340px;
+  color: black;
+}
+
+.testobase p {
+  font-size: 22px;
+  letter-spacing: 0.03em;
+}
+
+.testomaiuscolo p {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family:'Montserrat', sans-serif;
+}
+
+.texto2 {
+  padding-top: 2%;
+}
+
+.texto {
+  padding-top: 0.3%;
+  padding-bottom: 1.5%;
+}
+
+
+.containervuoto {
+  height: 50px;
+}
+
+
+.socialtesto {
+  padding-top: 3%;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.imginsta {
+  height: 38px; 
+  padding-bottom: 3%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  text-align: center;
+}
+
+.row {
+  background-color: #000000;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.linea-bianca {
+  width: 1300px; 
+  height: 0.2px; 
+  background-color: #8f8b8b; 
+  position: relative; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+/* menù sotto e footer*/
+footer {
+  display: flex;
+  justify-content: center;  
+}
+
+#scrollToTopBtn {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family:'Montserrat', sans-serif;
+  line-height: 40px;
+  width: 1370px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-decoration: underline;
+}
+
+.menusotto {
+  display: flex;
+  background-color: #000000;
+  color: white;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  padding-top: 4%;
+  list-style: none;
+}
+
+.colonna {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.colonna:last-child {
+  margin-right: 0;
+}
+
+.colonna a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.grande {
+  color: white;
+  font-size: 16px;
+  font-style: bold;
+}
+
+.piccolo {
+  color: #555655;
+  font-size: 13px;
+}
+
+.grande:hover {
+  text-decoration: underline;
+}
+
+.piccolo:hover {
+  color: white;
+}
+
+.credit {
+  font-family:'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color:#555655;
+}
+
+
+@media (max-width:768px) {
+  
+}
+
+/* animazione effetto macchina da scrivere */
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .09em solid #000000;
+  }
+  100% {
+    border: none;
+  }
+}
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .09em solid #000000;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
